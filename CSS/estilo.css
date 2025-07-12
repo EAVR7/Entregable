@@ -1,0 +1,173 @@
+/* estilo.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefae0;
+    color: #333;
+    padding: 20px;
+}
+
+.contenedor-grande {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contenedor-pequeno {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    color: #9a3412;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color: #e07a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #e07a5f;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f3e7ff;
+}
+
+.boton {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #e07a5f;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: #d65a3f;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #9a3412;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #e07a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d65a3f;
+}
+.derecha {
+    text-align: right;
+}
+.flex-espaciado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 300px;
+    max-width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.campo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
